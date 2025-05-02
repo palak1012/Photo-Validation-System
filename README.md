@@ -9,6 +9,7 @@ This is a system to validate an uploaded image against some conditions.
 - Evaluates Background color (white)
 - Neutral expression
 - Absence of glasses
+- Confidence Scores
 - Simple web interface
 - Dockerized setup
 
