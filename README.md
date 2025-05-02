@@ -26,7 +26,7 @@ This is a system to validate an uploaded image against some conditions to meet.
           docker run -p 5000:5000 photo-validator
 
 
-      Then open http://localhost:5000 in your browser and test.
+      Then open http://localhost:5000 in your browser, upload an image and click validate button.
 
 
     (*) WITHOUT DOCKER
@@ -34,7 +34,7 @@ This is a system to validate an uploaded image against some conditions to meet.
         
           python app/main.py
       
-      Then open http://localhost:5000 in your browser and test.
+      Then open http://localhost:5000 in your browser, upload an image and click validate button.
 
 
 
