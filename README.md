@@ -45,4 +45,3 @@ This is a system to validate an uploaded image against some conditions.
 
 # Future Improvements
 - Use advanced ML models for fine-grained expression detection
-- Add multilingual support
