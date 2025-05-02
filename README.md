@@ -1,7 +1,7 @@
 # PHOTO VALIDATION SYSTEM
 
 # Overview
-This is a system to validate an uploaded image against some conditions to meet.
+This is a system to validate an uploaded image against some conditions.
 
 # Features
 - Validates image dimensions (413x531 pixels)
@@ -14,19 +14,19 @@ This is a system to validate an uploaded image against some conditions to meet.
 
 ## Setup
 
-1. CLONE the repository to your local system
+1. CLONE the repository to your local system and open it.
 
 2. TO RUN :
 
     (*) DOCKER
-        Start docker
-        Open your terminal and run following code one by one :
+        Start docker, then
+        Open your terminal and run following code one by one (It will take some time) :
 
           docker build -t photo-validator .
           docker run -p 5000:5000 photo-validator
 
 
-      Then open http://localhost:5000 in your browser and test.
+      Then open http://localhost:5000 in your browser, upload an image and click validate button.
 
 
     (*) WITHOUT DOCKER
@@ -34,7 +34,7 @@ This is a system to validate an uploaded image against some conditions to meet.
         
           python app/main.py
       
-      Then open http://localhost:5000 in your browser and test.
+      Then open http://localhost:5000 in your browser, upload an image and click validate button.
 
 
 
@@ -45,4 +45,3 @@ This is a system to validate an uploaded image against some conditions to meet.
 
 # Future Improvements
 - Use advanced ML models for fine-grained expression detection
-- Add multilingual support
