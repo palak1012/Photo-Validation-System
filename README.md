@@ -20,7 +20,7 @@ This is a system to validate an uploaded image against some conditions to meet.
 
     (*) DOCKER
         Start docker, then
-        Open your terminal and run following code one by one :
+        Open your terminal and run following code one by one (It will take some time) :
 
           docker build -t photo-validator .
           docker run -p 5000:5000 photo-validator
