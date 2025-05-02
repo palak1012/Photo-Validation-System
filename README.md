@@ -31,6 +31,7 @@ This is a system to validate an uploaded image against some conditions to meet.
 
     (*) WITHOUT DOCKER
         Open terminal and run below code:
+        
           python app/main.py
       
       Then open http://localhost:5000 in your browser and test.
