@@ -1,7 +1,7 @@
 # PHOTO VALIDATION SYSTEM
 
 # Overview
-This is a system to validate an uploaded image against some conditions to meet.
+This is a system to validate an uploaded image against some conditions.
 
 # Features
 - Validates image dimensions (413x531 pixels)
@@ -14,7 +14,7 @@ This is a system to validate an uploaded image against some conditions to meet.
 
 ## Setup
 
-1. CLONE the repository to your local system
+1. CLONE the repository to your local system and open it.
 
 2. TO RUN :
 
